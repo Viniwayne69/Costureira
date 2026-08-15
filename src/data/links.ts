@@ -12,7 +12,7 @@ export type HazelinkItem = {
 };
 
 export const linkTargets: Record<LinkId, string> = {
-  course: "https://pay.kiwify.com.br/Si6u7ad",
+  course: "https://pay.kiwify.com.br/4HgRrQg",
   whatsapp: "https://chat.whatsapp.com/LGx9bfk9rguELeP8m3jmff?s=cl&p=i&mlu=4&amv=1",
   instagram: "https://www.instagram.com/cursosdecosturavanessamuniz/",
   location: "https://maps.app.goo.gl/bPbAeXgu3Znknatu9",
