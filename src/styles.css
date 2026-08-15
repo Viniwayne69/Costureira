@@ -77,8 +77,8 @@ a {
 .hero-section {
   position: relative;
   isolation: isolate;
-  min-height: clamp(390px, 91vw, 455px);
-  padding: calc(env(safe-area-inset-top, 0px) + clamp(33px, 7.8vw, 48px)) var(--content-pad) 22px;
+  min-height: clamp(455px, 107vw, 520px);
+  padding: calc(env(safe-area-inset-top, 0px) + clamp(30px, 7.2vw, 42px)) var(--content-pad) 20px;
   border-radius: clamp(29px, 7vw, 39px) clamp(29px, 7vw, 39px) 0 0;
   overflow: hidden;
   background: #eaf8fe;
@@ -167,7 +167,7 @@ a {
   width: min(100%, 430px);
   margin: clamp(7px, 1.7vw, 10px) 0 0;
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: clamp(1.75rem, 8.4vw, 3.1rem);
+  font-size: clamp(1.86rem, 8.75vw, 3.02rem);
   line-height: 0.96;
   font-weight: 800;
   letter-spacing: 0;
@@ -190,10 +190,10 @@ a {
 }
 
 .intro-copy {
-  width: min(100%, 315px);
+  width: min(100%, 350px);
   margin: 0 auto;
   color: var(--vm-ink);
-  font-size: clamp(0.95rem, 3.9vw, 1.13rem);
+  font-size: clamp(0.9rem, 3.55vw, 1.06rem);
   line-height: 1.28;
   font-weight: 700;
 }
@@ -203,6 +203,31 @@ a {
   font-weight: 800;
 }
 
+.course-highlights {
+  width: min(100%, 340px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  margin-top: clamp(11px, 3vw, 15px);
+}
+
+.course-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  color: var(--vm-pink-deep);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(242, 56, 138, 0.2);
+  box-shadow: 0 8px 16px rgba(41, 58, 82, 0.1);
+  font-size: clamp(0.68rem, 2.65vw, 0.78rem);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
 .quick-links {
   width: min(100%, 274px);
   display: grid;
@@ -210,7 +235,7 @@ a {
   gap: clamp(12px, 3.4vw, 18px);
   align-items: center;
   justify-items: center;
-  margin-top: clamp(17px, 4.8vw, 24px);
+  margin-top: clamp(14px, 4vw, 19px);
 }
 
 .quick-button {
@@ -359,7 +384,7 @@ a {
 
 .nav-card--whatsapp .nav-card__text strong {
   white-space: nowrap;
-  font-size: clamp(1.08rem, 4.25vw, 1.58rem);
+  font-size: clamp(1.02rem, 3.95vw, 1.46rem);
 }
 
 .nav-card__text span {
@@ -456,7 +481,7 @@ a {
   }
 
   .hero-section {
-    min-height: 380px;
+    min-height: 430px;
     padding-top: calc(env(safe-area-inset-top, 0px) + 28px);
   }
 
@@ -469,12 +494,23 @@ a {
   }
 
   .hero-content h1 {
-    font-size: 1.48rem;
+    font-size: 1.55rem;
   }
 
   .intro-copy {
-    width: min(100%, 260px);
-    font-size: 0.88rem;
+    width: min(100%, 278px);
+    font-size: 0.8rem;
+  }
+
+  .course-highlights {
+    gap: 5px;
+    margin-top: 9px;
+  }
+
+  .course-chip {
+    min-height: 25px;
+    padding: 5px 8px;
+    font-size: 0.62rem;
   }
 
   .quick-links {
@@ -496,7 +532,7 @@ a {
   }
 
   .nav-card--whatsapp .nav-card__text strong {
-    font-size: 0.98rem;
+    font-size: 0.86rem;
   }
 
   .nav-card__text span {

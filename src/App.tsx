@@ -4,10 +4,10 @@ import { navigationCards } from "./data/links";
 
 export default function App() {
   return (
-    <main className="page-shell" aria-label="Hazelink oficial da Vanessa Muniz Atelier">
+    <main className="page-shell" aria-label="Hazelink do curso Vanessa Muniz">
       <article className="hazelink-card">
         <HeroSection />
-        <section className="navigation-list" aria-label="Canais principais da VM Costura">
+        <section className="navigation-list" aria-label="Links principais do curso Vanessa Muniz">
           {navigationCards.map((item) => (
             <NavigationCard key={item.id} item={item} />
           ))}
