@@ -1,5 +1,4 @@
 import logo from "../assets/vm-logo.png";
-import { QuickLinks } from "./QuickLinks";
 
 const courseHighlights = ["Do zero", "Método prático", "Comunidade"];
 
@@ -23,7 +22,6 @@ export function HeroSection() {
             <span className="course-chip" key={item}>{item}</span>
           ))}
         </div>
-        <QuickLinks />
       </div>
     </header>
   );

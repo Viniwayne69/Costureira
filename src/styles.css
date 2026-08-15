@@ -77,7 +77,7 @@ a {
 .hero-section {
   position: relative;
   isolation: isolate;
-  min-height: clamp(455px, 107vw, 520px);
+  min-height: clamp(405px, 96vw, 465px);
   padding: calc(env(safe-area-inset-top, 0px) + clamp(30px, 7.2vw, 42px)) var(--content-pad) 20px;
   border-radius: clamp(29px, 7vw, 39px) clamp(29px, 7vw, 39px) 0 0;
   overflow: hidden;
@@ -481,7 +481,7 @@ a {
   }
 
   .hero-section {
-    min-height: 430px;
+    min-height: 392px;
     padding-top: calc(env(safe-area-inset-top, 0px) + 28px);
   }
 
